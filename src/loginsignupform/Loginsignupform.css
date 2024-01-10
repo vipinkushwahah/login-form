@@ -1,0 +1,115 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,204,0.9864320728291317) 22%, rgba(0,255,81,1) 78%);    
+}
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.hadding {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.inputa {
+    padding: 10px;
+   
+}
+input:hover {
+    box-shadow: 0 0 5px #fafcfc, 0 0 15px #ecf3f3, 0 0 25px #fafcfc, 0 0 100px #f9fcfc;
+    background-color: #111718;
+    color: #f7fafa;
+    text-shadow: 0 0 5px #f9fcfc, 0 0 15px #fbfcfc, 0 0 25px #f9fcfc, 0 0 100px #f7fafa;
+
+}
+.hadder:hover {
+    box-shadow: 0 0 5px #eeea05, 0 0 15px #f9fd04, 0 0 25px #f3f703, 0 0 100px #f3e309;
+    text-shadow: 0 0 5px #f9fcfc, 0 0 15px #fbfcfc, 0 0 25px #f9fcfc, 0 0 100px #f7fafa;
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,204,0.9864320728291317) 22%, rgba(0,255,81,1) 78%);    
+    transform-style: preserve-3d;
+    
+}
+.lost-password {    
+    padding-left: 50px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #f7fafa;
+}
+.container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.hadder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: content-box;
+    border-radius: 20px;
+    border: 1px solid rgb(13, 13, 14) ;
+    box-shadow: 0 0 5px #161616, 0 0 15px #17171a, 0 0 25px #0f0f0f, 0 0 100px #0d0d11;
+     text-shadow: 0 0 5px #0f0f0f, 0 0 15px #171718, 0 0 25px #111111, 0 0 100px #1a1a1b; 
+    background-color:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,204,0.9864320728291317) 22%, rgba(0,255,81,1) 78%);    
+    transform-style: preserve-3d; 
+}
+input {
+    /* text-shadow: 0 0 5px #fafcfc, 0 0 15px #f5fafa, 0 0 25px #c90f0f, 0 0 100px #e0f804;*/
+    border-radius: 20px; 
+    height: 30px;
+    border: none;
+    width: 250px;
+    background: none;
+    color: rgb(252, 251, 251);
+    text-align: center;  
+    cursor: pointer; 
+    border-color: #0d0d0e;
+    box-shadow: 0 0 5px #161616, 0 0 15px #17171a, 0 0 25px #0f0f0f, 0 0 100px #0d0d11;
+}
+h1 {
+    text-align: center;
+    color: #f9fcfc;
+    text-decoration: underline;
+}
+span:hover {
+    color: rgba(255, 0, 0, 0.747);
+    cursor: pointer;
+}
+.submit-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;   
+}
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer; 
+    margin: 10px;
+    text-shadow: 0 0 5px #19191a, 0 0 15px #141516, 0 0 25px #1d1e1f, 0 0 100px #0a0a0a;
+    background: none;    
+    color: #f6fbfc;
+    box-shadow: 0 0 5px #111111, 0 0 15px #131314, 0 0 25px #2a2a2b, 0 0 100px #0a0a0a;
+  
+}
+button:hover {
+    box-shadow: 0 0 5px #fafcfc, 0 0 15px #f7f8f8, 0 0 25px #f6fbfc, 0 0 100px #f7fafa;
+    text-shadow: 0 0 5px #f9fcfc, 0 0 15px #fbfcfc, 0 0 25px #f9fcfc, 0 0 100px #f7fafa;
+    background-color: #111718;
+    color: #f7fafa;
+}
+::placeholder {
+    color: white;
+}
+img:hover {
+    box-shadow: 0 0 5px #fafcfc, 0 0 15px #f7f8f8, 0 0 25px #f6fbfc, 0 0 100px #f7fafa;
+
+}
+
+    
+
